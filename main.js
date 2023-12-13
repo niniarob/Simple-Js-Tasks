@@ -45,7 +45,6 @@
 
 // console.log(fibonacci(6)); 
 
-
 // // Implement the bubble sort algorithm to sort an array.
 // function bubbleSort(arr) {
 //   var len = arr.length;
@@ -172,6 +171,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 // Write a function to flatten a nested array.
 // function flattenArray(arr) {
 //   return arr.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
@@ -179,3 +189,119 @@
 
 // let nestedArray = [1, [2, [3, 4], 5], 6];
 // console.log(flattenArray(nestedArray)); 
+
+
+
+
+
+
+// function flat(arr) {
+//     return arr.flat(Infinity);
+//   }
+//   let Array = [1, 2, 3, [4, 5], 6];
+//   console.log(flat(Array)); 
+  
+
+
+
+
+
+
+// let num = 4;
+// let numFac = 1;
+
+// for (let i = 1; i <= num; i++) {
+//   numFac *= i;
+// }
+
+// console.log(numFac);
+
+
+
+// Exercise 1:
+// Write a JavaScript function that takes an array of 
+// numbers as input and returns the sum of all the numbers in the array.
+
+
+
+
+//     let num = [1,2,3]
+//     let newArr = 0;
+//     newArr = num.reduce((tut,cur) => {
+//         return tut + cur
+//     },0)
+
+// console.log(newArr)
+
+
+// let newArr = 0;
+// function sumArr(arr){
+//     newArr = (arr.reduce((tot,cur) => {
+//         return tot + cur
+//     },0))
+//     console.log(newArr)
+// };
+// const arr = [1,2,3,1,2,3];
+// sumArr(arr);
+
+
+
+// Exercise 2:
+// Write a JavaScript function that 
+// takes an array of strings and returns a new
+//  array with the lengths of each string.
+
+// let stringsArr = ["nino", "bacho"];
+// let stringsLength = [];
+
+// for (let i = 0; i < stringsArr.length; i++){
+//     stringsLength.push(stringsArr[i].length)
+// }
+// console.log(stringsLength)
+
+
+
+// let result = [];
+// function string(stringArr){
+// for (let i = 0; i < stringArr.length; i++){
+//     result.push(stringArr[i].length)
+// }
+// }
+// let stringArr = ["nino", "bacho"];
+// string(stringArr);
+// console.log(result)
+
+
+
+
+// Exercise 3:
+// Write a JavaScript function that takes an array of 
+// numbers and returns a new array with only the even numbers.
+
+// let evenNumb = [];
+// function EvenNum(numArr){
+//     for(let i = 0; i <= numArr.length; i++){
+//         if(numArr[i] % 2 === 0){
+//             evenNumb.push(numArr[i])
+//         }
+//     }
+// };
+// let numArr = [10, 12, 13, 14, 15, 16];
+// EvenNum(numArr);
+// console.log(evenNumb)
+
+
+// Exercise 4:
+// Write a function that takes an array of numbers 
+// and returns the largest number in the array.
+
+// let result = 0;
+// function max(num){
+//     for(let i = 0; i <= num.length; i++){
+//         if(num[i] >= Math.max(...num)){
+//             result += num[i]
+//         }
+//     }}
+// let num = [1,2,3,88,4,5,6,77,99,222];
+// max(num);
+// console.log(result)
