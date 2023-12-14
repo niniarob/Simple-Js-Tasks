@@ -305,3 +305,199 @@
 // let num = [1,2,3,88,4,5,6,77,99,222];
 // max(num);
 // console.log(result)
+
+
+
+
+// Exercise 5:
+// Write a function that takes an array of strings and returns a new array
+//  with only the strings that have more than 5 characters.
+
+
+// let fiveCh = [];
+
+// function strings (str){
+//     for(let i = 0; i < str.length; i++){
+//         if(str[i].length > 5){
+//             fiveCh.push(str[i])
+//         }
+//     }
+
+// }
+// let str = ["nino", "bachoo", "teklee", "ana", "tornikee"];
+// strings(str);
+// console.log(fiveCh);
+
+
+
+// Exercise 6:
+// Write a function that takes two arrays of numbers and returns a new array
+//  that contains only the common elements between the two arrays (intersection).
+// let newArr1 = [];
+// function Common(arr1, arr2){
+//     for(let i = 0; i < arr1.length; i++){
+//         for(let j = 0; j < arr2.length; j++){
+//             if(arr1[i] === arr2[j]){
+//                 newArr1.push(arr1[i])
+//             }
+//         }
+
+//     }
+
+// }
+// let arr1 = [1,2,3,4,5,6,7,8,9];
+// let arr2 = [1,2,3,6,7,5,9];
+// Common(arr1, arr2);
+// console.log(newArr1);
+
+
+
+
+
+
+
+
+// const input = [1, 2, 3, [4, [5, [5.6], 6], 7], 8];
+
+// const res = [1, 2, 3];
+// const elem = [4, [5, [5.6], 6], 7];
+// const res2 = [];
+
+// // Array flat recursive
+// function flat(inputArray) {
+//   let result = [];
+//   let i = 0;
+//   for (const element of inputArray) {
+//     if (Array.isArray(element)) {
+//       result = result.concat(flat(element));
+//     } else {
+//       result.push(element);
+//     }
+//   }
+//   return result;
+// }
+
+// fuctorial of n
+// function fuctorial(n) {
+//   // 2
+//   if (n < 0) {
+//     console.log("Invalid input");
+//     return;
+//   }
+//   if (n === 1) {
+//     return 1;
+//   }
+//   return fuctorial(n - 1) * n;
+// }
+
+// const result = fuctorial(3);
+
+// const numbers = [42, 17, 88, 5, 61, 29, 93, 10, 74, 50].sort();
+
+// sumOfDigitsRecursive
+// function sumOfDigits(n) {
+//   if (n < 10) {
+//     return n;
+//   }
+//   const lastDigit = n % 10;
+
+//   return lastDigit + sumOfDigits((n - lastDigit) / 10);
+// }
+
+// const pasuxi = sumOfDigits(12);
+// console.log("swori pasuxia: ", pasuxi);
+
+
+// let n = 0;
+// function Product(x, y){
+//     if(y > 0){
+//        n = n + x;
+//        return Product(x, y - 1)
+//     } else {
+//         return n
+//     }
+// };
+// console.log(Product(2,3));
+
+
+// function Product(x,y){
+
+
+
+// };
+// console.log(Product(2,3))
+
+
+
+
+// Implement a recursive function called reverseString that takes a string as 
+// input and returns its reverse. 
+// For example, if the input is "hello," the function should return "olleh."
+
+// let reverse = "";
+// function reverseString(str) {
+//     for(let i = str.length; i > 0; i--){
+//         reverse += str[i - 1]
+//     }
+// };
+// reverseString("hello");
+// console.log(reverse); 
+  
+
+// function reverseString(str) {
+//     if (str === "") {
+//       return "";
+//     } else {
+//       return str.charAt(0) + reverseString(str.slice(1));
+//     }
+//   }
+  
+//   console.log(reverseString("hello")); 
+
+
+
+// დაწერე countDown ფუნქცია რომელიც დაითვლის წამებს. 
+// მაგალითან თუ გადავცემთ 20 უნდა დაგვიბეჭდოს 20, 19 ,18 ... 0 ერთ წამიანი ინტერვალით.
+// თუ გინდა გაუკეთე წუთების და საათების დათვლის შესაძლებლობაც.
+// let result = [];
+// function countDown(num){
+
+// };
+//  countDown(10);
+// console.log(result);
+
+
+
+// function countDown(startValue) {
+//     let counter = startValue;
+  
+//     const intervalId = setInterval(() => {
+//       console.log(counter);
+  
+//       if (counter === 0) {
+//         clearInterval(intervalId); 
+//       } else {
+//         counter--;
+//       }
+//     }, 1000); 
+//   }
+//   countDown(20);
+  
+
+
+
+// function countDown(counter) {
+
+//     if (counter === 0) {
+//       console.log(counter);
+//       return;
+//     }
+//     setTimeout(() => {
+//       countDown(counter - 1);
+//     }, 1000);
+
+//     console.log(counter)
+//   }
+//   countDown(10);
+  
+
