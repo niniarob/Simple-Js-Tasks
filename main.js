@@ -908,3 +908,27 @@
 // const arrayWithShift = [1, 2, 3];
 // arrayWithShift.shift();
 // console.log(arrayWithShift);
+
+
+
+
+// function product(x,y){
+//     if(y === 0) return 0;
+//     else if( y === 1 ) return x;
+//     else if(y < 0)return -product (x, -y - 1) + x;
+//     else return x + product (x, y - 1);
+// }
+// const result = product(3, -7)
+// console.log(result)
+
+
+
+function product(x, y) {
+    if (y === 0) return 0;
+    else if (y === 1) return x;
+    else if (y < 0) return -product(x, -y + 1) + x;
+    else return x + product(x, y - 1);
+}
+
+const result = product(-3, 7);
+console.log(result);
