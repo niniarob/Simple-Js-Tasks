@@ -756,3 +756,155 @@
 // }
 // sortArray([2, 4, 1, 5, 7, 3, 10, 9, 6]);
 // console.log(newArr);
+
+
+
+
+// Map:
+// Create a new array that contains the 
+// squares of each element in the given array.
+
+
+// const squaredArray = [1, 2, 3, 4].map(num => num ** 2);
+// console.log(squaredArray);
+
+
+// let square = [];
+// function mapArr (arr){
+//     square = arr.map(e => e * e)
+// }
+// mapArr ([1,2,3,4]);
+// console.log(square)
+
+
+// Filter:
+// Create a new array that contains
+//  only the even numbers from the given array.
+
+
+
+
+
+// Reduce:
+// Calculate the sum of all elements in the given array.
+
+// const sum = [1, 2, 3, 4].reduce((acc, num) => acc + num, 0);
+// console.log(sum);
+
+
+// ForEach:
+// Print each element of the array to the console.
+
+// const array = [1, 2, 3, 4];
+// array.forEach(num => console.log(num));
+
+
+
+// Every:
+// Check if all elements in the array are greater than 0.
+// const allPositive = [1, 2, 3, 4].every(num => num > 0);
+// console.log(allPositive);
+
+
+
+// Some:
+// Check if at least one element in the array is negative.
+// const hasNegative = [1, 2, 3, -4].some(num => num < 0);
+// console.log(hasNegative);
+
+
+
+// Find:
+// Find the first element in the array that is greater than 5.
+// const greaterThanFive = [1, 6, 3, 2].find(num => num > 5);
+// console.log(greaterThanFive);
+
+
+// FindIndex:
+// Find the index of the first element in the array that is greater than 5.
+// const greaterThanFive = [1, 6, 3, 2].find(num => num > 5);
+// console.log(greaterThanFive);
+
+
+
+// Includes:
+// Check if the array includes the value 3.
+// const includesThree = [1, 2, 3, 4].includes(3);
+// console.log(includesThree);
+
+
+// IndexOf:
+// Find the index of the first occurrence of the value 4 in the array.
+// const indexGreaterThanFive = [1, 6, 3, 2].findIndex(num => num > 5);
+// console.log(indexGreaterThanFive);
+
+
+
+// LastIndexOf:
+// Find the index of the last occurrence of the value 4 in the array.
+// const indexOfTypeFour = [1, 2, 4, 3, 4].indexOf(4);
+// console.log(indexOfTypeFour);
+
+
+
+// Slice:
+// Create a new array that includes elements from index 2 to index 5 of the given array.
+// const lastIndexOfFour = [1, 2, 4, 3, 4].lastIndexOf(4);
+// console.log(lastIndexOfFour);
+
+
+
+// Splice:
+// Remove two elements starting from index 3 and replace them with the values 8 and 9.
+// const slicedArray = [1, 2, 3, 4, 5].slice(2, 6);
+// console.log(slicedArray);
+
+
+
+// Concat:
+// Concatenate the given array with another array [10, 11, 12].
+// const concatenatedArray = [1, 2, 3].concat([4, 5, 6]);
+// console.log(concatenatedArray);
+
+
+
+// Join:
+// Convert the array of strings ['Hello', 'World'] into a single string "Hello World".
+// const joinedString = ['Hello', 'World'].join(' ');
+// console.log(joinedString);
+
+
+// Reverse:
+// Reverse the order of elements in the array.
+// const reversedArray = [1, 2, 3, 4, 5].reverse();
+// console.log(reversedArray);
+
+
+// Sort:
+// Sort the array of strings ['banana', 'appleeeee', 'orange'] in alphabetical order.
+// const sortedArray = ['banana', 'appleeeee', 'orange'].sort();
+// console.log(sortedArray);
+
+
+
+// Push:
+// Add the value 13 to the end of the array.
+// const arrayWithPush = [1, 2, 3];
+// arrayWithPush.push(13);
+// console.log(arrayWithPush);
+
+
+
+// Pop:
+// Remove the last element from the array.
+// const arrayWithPop = [1, 2, 3];
+// arrayWithPop.pop();
+// console.log(arrayWithPop);
+
+
+
+// Shift:
+// Remove the first element from the array.
+// const arrayWithShift = [1, 2, 3];
+// arrayWithShift.shift();
+// console.log(arrayWithShift);
