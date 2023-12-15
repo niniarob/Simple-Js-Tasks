@@ -602,4 +602,91 @@
 //   const max = findMax([1, 2, 3, 5, 10, 9, 8, 7]);
 //   console.log(max);
   
+
+
+// Array Reverse:
+// Write a function that reverses the elements of an array.  
+
+// let reverse = [];
+// function reverseArray(arr) {
+//     for (let i = arr.length; i > 0; i--){
+//         reverse.push(arr[i - 1])
+//     }
+
+// }
+// reverseArray([1,2,4,5,6,7])
+// console.log(reverse)
   
+
+
+
+// Array Even Numbers:
+// Write a function that returns an 
+// array containing only the even numbers from the given array.
+
+// let duplicate = [];
+// function getEvenNumbers(arr) {
+//     for (let i = 0; i <= arr.length; i++){
+//         if(arr[i] % 2 === 0){
+//             duplicate.push(arr[i])
+//         }
+//     }
+// }
+// getEvenNumbers([1,2,3,4,5,6,7,8,10]);
+// console.log(duplicate) 
+  
+
+// Remove Duplicates:
+// Write a function that removes duplicate elements from an array.
+
+
+// let remove = [];
+
+// function removeDuplicates(arr) {
+//     remove = arr.filter((el, index, array) => {
+//         return array.indexOf(el) === index;
+//     });
+// }
+
+// removeDuplicates([1, 2, 2, 3, 4, 4, 5, 5, 6, 7]);
+// console.log(remove);
+
+
+// let remove = [];
+
+// function removeDuplicates(arr) {
+//     remove = [...new Set(arr)];
+// }
+
+// removeDuplicates([1, 2, 2, 3, 4, 4, 5, 5, 6, 7]);
+// console.log(remove);
+
+
+
+// let remove = [];
+
+// function removeDuplicates(arr) {
+//     remove = arr.reduce((unique, el) => {
+//         return unique.includes(el) ? unique : [...unique, el];
+//     }, []);
+// }
+
+// removeDuplicates([1, 2, 2, 3, 4, 4, 5, 5, 6, 7]);
+// console.log(remove);
+
+
+
+
+// let remove = [];
+
+// function removeDuplicates(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if (remove.indexOf(arr[i]) === -1) {
+//             remove.push(arr[i]);
+//         }
+//     }
+// }
+
+// removeDuplicates([1, 2, 2, 3, 4, 4, 5, 5, 6, 7]);
+// console.log(remove);
+
