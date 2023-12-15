@@ -690,3 +690,69 @@
 // removeDuplicates([1, 2, 2, 3, 4, 4, 5, 5, 6, 7]);
 // console.log(remove);
 
+
+
+
+// Array Sorting:
+// Write a function that sorts an array in ascending order.
+
+// let newArr = [];
+
+// function sortArray(arr) {
+//     newArr = [...arr]; 
+    
+//     for (let i = 0; i < newArr.length - 1; i++) {
+//         for (let j = 0; j < newArr.length - 1 - i; j++) {
+//             if (newArr[j] > newArr[j + 1]) {
+//                 [newArr[j], newArr[j + 1]] = [newArr[j + 1], newArr[j]];
+//             }
+//         }
+//     }
+// }
+
+// sortArray([2, 4, 1, 5, 7, 3, 10, 9, 6]);
+// console.log(newArr);
+
+
+
+// let newArr = [];
+
+// function sortArray(arr) {
+//     newArr = [...arr].sort((a, b) => a - b);
+// }
+
+// sortArray([2, 4, 1, 5, 7, 3, 10, 9, 6]);
+// console.log(newArr);
+
+
+
+// let newArr = [];
+
+// function sortArray(arr) {
+//     newArr = [...arr]; 
+    
+//     for (let i = 1; i < newArr.length; i++) {
+//         let currentElement = newArr[i];
+//         let j = i - 1;
+
+//         while (j >= 0 && newArr[j] > currentElement) {
+//             newArr[j + 1] = newArr[j];
+//             j--;
+//         }
+
+//         newArr[j + 1] = currentElement;
+//     }
+// }
+
+// sortArray([2, 4, 1, 5, 7, 3, 10, 9, 6]);
+// console.log(newArr);
+
+
+  
+// let newArr = [];
+
+// function sortArray(arr) {
+//     newArr = arr.sort((a, b) => a - b);
+// }
+// sortArray([2, 4, 1, 5, 7, 3, 10, 9, 6]);
+// console.log(newArr);
