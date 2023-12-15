@@ -353,61 +353,6 @@
 
 
 
-
-
-
-
-// const input = [1, 2, 3, [4, [5, [5.6], 6], 7], 8];
-
-// const res = [1, 2, 3];
-// const elem = [4, [5, [5.6], 6], 7];
-// const res2 = [];
-
-// // Array flat recursive
-// function flat(inputArray) {
-//   let result = [];
-//   let i = 0;
-//   for (const element of inputArray) {
-//     if (Array.isArray(element)) {
-//       result = result.concat(flat(element));
-//     } else {
-//       result.push(element);
-//     }
-//   }
-//   return result;
-// }
-
-// fuctorial of n
-// function fuctorial(n) {
-//   // 2
-//   if (n < 0) {
-//     console.log("Invalid input");
-//     return;
-//   }
-//   if (n === 1) {
-//     return 1;
-//   }
-//   return fuctorial(n - 1) * n;
-// }
-
-// const result = fuctorial(3);
-
-// const numbers = [42, 17, 88, 5, 61, 29, 93, 10, 74, 50].sort();
-
-// sumOfDigitsRecursive
-// function sumOfDigits(n) {
-//   if (n < 10) {
-//     return n;
-//   }
-//   const lastDigit = n % 10;
-
-//   return lastDigit + sumOfDigits((n - lastDigit) / 10);
-// }
-
-// const pasuxi = sumOfDigits(12);
-// console.log("swori pasuxia: ", pasuxi);
-
-
 // let n = 0;
 // function Product(x, y){
 //     if(y > 0){
@@ -501,3 +446,160 @@
 //   countDown(10);
   
 
+// function reverseString(str) {
+//     if (str === "") {
+//       return "";
+//     } else {
+//       return str[str.length - 1] + reverseString(str.slice(0, -1));
+//     }
+//   }
+  
+//   console.log(reverseString("hello")); 
+  
+// const input = [1, 2, 3, [4, [5, [5.6], 6], 7], 8];
+
+// const res = [1, 2, 3];
+// const elem = [4, [5, [5.6], 6], 7];
+// const res2 = [];
+
+// // Array flat recursive
+// function flat(inputArray) {
+//   let result = [];
+//   let i = 0;
+//   for (const element of inputArray) {
+//     if (Array.isArray(element)) {
+//       result = result.concat(flat(element));
+//     } else {
+//       result.push(element);
+//     }
+//   }
+//   return result;
+// }
+
+// fuctorial of n
+// function fuctorial(n) {
+//   // 2
+//   if (n < 0) {
+//     console.log("Invalid input");
+//     return;
+//   }
+//   if (n === 1) {
+//     return 1;
+//   }
+//   return fuctorial(n - 1) * n;
+// }
+
+// const result = fuctorial(3);
+
+// const numbers = [42, 17, 88, 5, 61, 29, 93, 10, 74, 50].sort();
+
+// sumOfDigitsRecursive
+// function sumOfDigits(n) {
+//   if (n < 10) {
+//     return n;
+//   }
+//   const lastDigit = n % 10;
+
+//   return lastDigit + sumOfDigits((n - lastDigit) / 10);
+// }
+
+// const pasuxi = sumOfDigits(12);
+// console.log("swori pasuxia: ", pasuxi);
+
+
+
+
+
+
+// function product(x,y){
+//   if(x === 0 || y === 0 ){
+//     return 0;
+//   } else {
+//     return x + product(y - 1)
+//   }
+// }
+// let result = product(2,3);
+// console.log(result);
+
+
+
+
+
+// Reverse Array:
+// Write a function that reverses the elements of an array without using the built-in reverse() method.
+
+// let newArr = [];
+// function reverce (num){
+//   for(let i = num.length ; i > 0; i--){
+//      newArr.push(num[i - 1]);
+//   }
+
+// }
+// reverce([1,2,3,4,5,6]);
+// console.log(newArr);
+
+
+
+// Sum of Array:
+// Write a function that calculates 
+// the sum of elements in an array.
+
+// let newArr ;
+// function sumArray(arr){
+//    newArr = arr.reduce((tot,cur) => {
+//       return tot + cur
+//     }, 0)
+//   }
+// sumArray([1,2,3]);
+// console.log(newArr);
+
+
+// Find the Max:
+// Write a function that finds the 
+// maximum element in an array.
+
+// function findMax(arr) {
+//     if (arr.length === 0) {
+//       return undefined; 
+//     }
+  
+//     let max = arr[0];
+  
+//     for (let i = 1; i < arr.length; i++) {
+//       if (arr[i] > max) {
+//         max = arr[i];
+//       }
+//     }
+  
+//     return max;
+//   }
+  
+//   const max = findMax([1, 2, 3, 5, 10, 9, 8, 7]);
+//   console.log(max);
+
+
+
+// function findMax(arr) {
+//     if (arr.length === 0) {
+//       return undefined; 
+//     }
+  
+//     return arr.reduce((max, current) => (current > max ? current : max), arr[0]);
+//   }
+  
+//   const max = findMax([1, 2, 3, 5, 10, 9, 8, 7]);
+//   console.log(max);
+  
+
+// function findMax(arr) {
+//     if (arr.length === 0) {
+//       return undefined;
+//     }
+  
+//     return Math.max(...arr);
+//   }
+  
+//   const max = findMax([1, 2, 3, 5, 10, 9, 8, 7]);
+//   console.log(max);
+  
+  
