@@ -7,8 +7,6 @@
 
 // console.log(result);
 
-
-
 // Write a function to calculate the factorial of a given number.
 
 // let num = 4;
@@ -20,19 +18,17 @@
 
 // console.log(numFac);
 
-
 // function calculateFactorial(num) {
 //     let numFac = 1;
-  
+
 //     for (let i = 1; i <= num; i++) {
 //       numFac *= i;
 //     }
-  
+
 //     return numFac;
 //   }
 //   let result = calculateFactorial(4);
-//   console.log(result); 
-  
+//   console.log(result);
 
 // //   Write a function to generate the nth Fibonacci number.
 // function fibonacci(n) {
@@ -43,7 +39,7 @@
 //   }
 // }
 
-// console.log(fibonacci(6)); 
+// console.log(fibonacci(6));
 
 // // Implement the bubble sort algorithm to sort an array.
 // function bubbleSort(arr) {
@@ -62,8 +58,7 @@
 // }
 
 // var unsortedArray = [64, 34, 25, 12, 22, 11, 90];
-// console.log(bubbleSort(unsortedArray)); 
-
+// console.log(bubbleSort(unsortedArray));
 
 // // Implement the binary search algorithm to find the index of a given element in a sorted array.
 // function binarySearch(arr, target) {
@@ -88,14 +83,12 @@
 // var sortedArray = [11, 12, 22, 25, 34, 64, 90];
 // console.log(binarySearch(sortedArray, 22));
 
-
 // Write a function to calculate the sum of elements in an array.
 // function SumArr(arr){
 //   return arr.reduce((sum, num) => sum + num, 0);
 // }
 // let number = [1,2,4,5,6]
 // console.log(SumArr(number))
-
 
 // Write a function to find the maximum and minimum values in an array.
 // function findMaxMin(arr) {
@@ -105,9 +98,7 @@
 // }
 
 // let values = [8, 3, 11, 5, 7];
-// console.log(findMaxMin(values)); 
-
-
+// console.log(findMaxMin(values));
 
 // Write a function to filter out even numbers from an array
 // function filterEvenNumbers(arr) {
@@ -117,25 +108,20 @@
 // let numbers = [1, 2, 3, 4, 5, 6];
 // console.log(filterEvenNumbers(numbers));
 
-
 // Write a function to reverse the elements of an array.
 // function reverseArray(arr) {
 //   return arr.reverse();
 // }
 
 // let fruits = ["apple", "banana", "orange"];
-// console.log(reverseArray(fruits)); 
-
-
+// console.log(reverseArray(fruits));
 
 // Write a function to check if a specific element is present in an array.
 // function containsElement(arr, element) {
 //   return arr.includes(element);
 // }
 // let colors = ["red", "green", "blue"];
-// console.log(containsElement(colors, "green")); 
-
-
+// console.log(containsElement(colors, "green"));
 
 // Write a function to remove duplicate elements from an array.
 // function removeDuplicates(arr) {
@@ -143,8 +129,7 @@
 // }
 
 // let numbers = [1, 2, 2, 3, 4, 4, 5];
-// console.log(removeDuplicates(numbers)); 
-
+// console.log(removeDuplicates(numbers));
 
 // Write a function to calculate the average of elements in an array.
 // function calculateAverage(arr) {
@@ -155,9 +140,7 @@
 // }
 
 // let values = [10, 20, 30, 40, 50];
-// console.log(calculateAverage(values)); 
-
-
+// console.log(calculateAverage(values));
 
 // Write a function to rotate the elements of an array to the right by a specified number of positions.
 // function rotateArray(arr, positions) {
@@ -167,20 +150,7 @@
 // }
 
 // let letters = ['a', 'b', 'c', 'd', 'e'];
-// console.log(rotateArray(letters, 2)); 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(rotateArray(letters, 2));
 
 // Write a function to flatten a nested array.
 // function flattenArray(arr) {
@@ -188,24 +158,13 @@
 // }
 
 // let nestedArray = [1, [2, [3, 4], 5], 6];
-// console.log(flattenArray(nestedArray)); 
-
-
-
-
-
+// console.log(flattenArray(nestedArray));
 
 // function flat(arr) {
 //     return arr.flat(Infinity);
 //   }
 //   let Array = [1, 2, 3, [4, 5], 6];
-//   console.log(flat(Array)); 
-  
-
-
-
-
-
+//   console.log(flat(Array));
 
 // let num = 4;
 // let numFac = 1;
@@ -216,14 +175,9 @@
 
 // console.log(numFac);
 
-
-
 // Exercise 1:
-// Write a JavaScript function that takes an array of 
+// Write a JavaScript function that takes an array of
 // numbers as input and returns the sum of all the numbers in the array.
-
-
-
 
 //     let num = [1,2,3]
 //     let newArr = 0;
@@ -232,7 +186,6 @@
 //     },0)
 
 // console.log(newArr)
-
 
 // let newArr = 0;
 // function sumArr(arr){
@@ -244,10 +197,8 @@
 // const arr = [1,2,3,1,2,3];
 // sumArr(arr);
 
-
-
 // Exercise 2:
-// Write a JavaScript function that 
+// Write a JavaScript function that
 // takes an array of strings and returns a new
 //  array with the lengths of each string.
 
@@ -259,8 +210,6 @@
 // }
 // console.log(stringsLength)
 
-
-
 // let result = [];
 // function string(stringArr){
 // for (let i = 0; i < stringArr.length; i++){
@@ -271,11 +220,8 @@
 // string(stringArr);
 // console.log(result)
 
-
-
-
 // Exercise 3:
-// Write a JavaScript function that takes an array of 
+// Write a JavaScript function that takes an array of
 // numbers and returns a new array with only the even numbers.
 
 // let evenNumb = [];
@@ -290,9 +236,8 @@
 // EvenNum(numArr);
 // console.log(evenNumb)
 
-
 // Exercise 4:
-// Write a function that takes an array of numbers 
+// Write a function that takes an array of numbers
 // and returns the largest number in the array.
 
 // let result = 0;
@@ -306,13 +251,9 @@
 // max(num);
 // console.log(result)
 
-
-
-
 // Exercise 5:
 // Write a function that takes an array of strings and returns a new array
 //  with only the strings that have more than 5 characters.
-
 
 // let fiveCh = [];
 
@@ -327,8 +268,6 @@
 // let str = ["nino", "bachoo", "teklee", "ana", "tornikee"];
 // strings(str);
 // console.log(fiveCh);
-
-
 
 // Exercise 6:
 // Write a function that takes two arrays of numbers and returns a new array
@@ -350,9 +289,6 @@
 // Common(arr1, arr2);
 // console.log(newArr1);
 
-
-
-
 // let n = 0;
 // function Product(x, y){
 //     if(y > 0){
@@ -364,19 +300,13 @@
 // };
 // console.log(Product(2,3));
 
-
 // function Product(x,y){
-
-
 
 // };
 // console.log(Product(2,3))
 
-
-
-
-// Implement a recursive function called reverseString that takes a string as 
-// input and returns its reverse. 
+// Implement a recursive function called reverseString that takes a string as
+// input and returns its reverse.
 // For example, if the input is "hello," the function should return "olleh."
 
 // let reverse = "";
@@ -386,8 +316,7 @@
 //     }
 // };
 // reverseString("hello");
-// console.log(reverse); 
-  
+// console.log(reverse);
 
 // function reverseString(str) {
 //     if (str === "") {
@@ -396,12 +325,10 @@
 //       return str.charAt(0) + reverseString(str.slice(1));
 //     }
 //   }
-  
-//   console.log(reverseString("hello")); 
 
+//   console.log(reverseString("hello"));
 
-
-// დაწერე countDown ფუნქცია რომელიც დაითვლის წამებს. 
+// დაწერე countDown ფუნქცია რომელიც დაითვლის წამებს.
 // მაგალითან თუ გადავცემთ 20 უნდა დაგვიბეჭდოს 20, 19 ,18 ... 0 ერთ წამიანი ინტერვალით.
 // თუ გინდა გაუკეთე წუთების და საათების დათვლის შესაძლებლობაც.
 // let result = [];
@@ -411,25 +338,20 @@
 //  countDown(10);
 // console.log(result);
 
-
-
 // function countDown(startValue) {
 //     let counter = startValue;
-  
+
 //     const intervalId = setInterval(() => {
 //       console.log(counter);
-  
+
 //       if (counter === 0) {
-//         clearInterval(intervalId); 
+//         clearInterval(intervalId);
 //       } else {
 //         counter--;
 //       }
-//     }, 1000); 
+//     }, 1000);
 //   }
 //   countDown(20);
-  
-
-
 
 // function countDown(counter) {
 
@@ -444,7 +366,6 @@
 //     console.log(counter)
 //   }
 //   countDown(10);
-  
 
 // function reverseString(str) {
 //     if (str === "") {
@@ -453,9 +374,9 @@
 //       return str[str.length - 1] + reverseString(str.slice(0, -1));
 //     }
 //   }
-  
-//   console.log(reverseString("hello")); 
-  
+
+//   console.log(reverseString("hello"));
+
 // const input = [1, 2, 3, [4, [5, [5.6], 6], 7], 8];
 
 // const res = [1, 2, 3];
@@ -506,11 +427,6 @@
 // const pasuxi = sumOfDigits(12);
 // console.log("swori pasuxia: ", pasuxi);
 
-
-
-
-
-
 // function product(x,y){
 //   if(x === 0 || y === 0 ){
 //     return 0;
@@ -520,10 +436,6 @@
 // }
 // let result = product(2,3);
 // console.log(result);
-
-
-
-
 
 // Reverse Array:
 // Write a function that reverses the elements of an array without using the built-in reverse() method.
@@ -538,10 +450,8 @@
 // reverce([1,2,3,4,5,6]);
 // console.log(newArr);
 
-
-
 // Sum of Array:
-// Write a function that calculates 
+// Write a function that calculates
 // the sum of elements in an array.
 
 // let newArr ;
@@ -553,59 +463,53 @@
 // sumArray([1,2,3]);
 // console.log(newArr);
 
-
 // Find the Max:
-// Write a function that finds the 
+// Write a function that finds the
 // maximum element in an array.
-
-// function findMax(arr) {
-//     if (arr.length === 0) {
-//       return undefined; 
-//     }
-  
-//     let max = arr[0];
-  
-//     for (let i = 1; i < arr.length; i++) {
-//       if (arr[i] > max) {
-//         max = arr[i];
-//       }
-//     }
-  
-//     return max;
-//   }
-  
-//   const max = findMax([1, 2, 3, 5, 10, 9, 8, 7]);
-//   console.log(max);
-
-
-
-// function findMax(arr) {
-//     if (arr.length === 0) {
-//       return undefined; 
-//     }
-  
-//     return arr.reduce((max, current) => (current > max ? current : max), arr[0]);
-//   }
-  
-//   const max = findMax([1, 2, 3, 5, 10, 9, 8, 7]);
-//   console.log(max);
-  
 
 // function findMax(arr) {
 //     if (arr.length === 0) {
 //       return undefined;
 //     }
-  
-//     return Math.max(...arr);
+
+//     let max = arr[0];
+
+//     for (let i = 1; i < arr.length; i++) {
+//       if (arr[i] > max) {
+//         max = arr[i];
+//       }
+//     }
+
+//     return max;
 //   }
-  
+
 //   const max = findMax([1, 2, 3, 5, 10, 9, 8, 7]);
 //   console.log(max);
-  
 
+// function findMax(arr) {
+//     if (arr.length === 0) {
+//       return undefined;
+//     }
+
+//     return arr.reduce((max, current) => (current > max ? current : max), arr[0]);
+//   }
+
+//   const max = findMax([1, 2, 3, 5, 10, 9, 8, 7]);
+//   console.log(max);
+
+// function findMax(arr) {
+//     if (arr.length === 0) {
+//       return undefined;
+//     }
+
+//     return Math.max(...arr);
+//   }
+
+//   const max = findMax([1, 2, 3, 5, 10, 9, 8, 7]);
+//   console.log(max);
 
 // Array Reverse:
-// Write a function that reverses the elements of an array.  
+// Write a function that reverses the elements of an array.
 
 // let reverse = [];
 // function reverseArray(arr) {
@@ -616,12 +520,9 @@
 // }
 // reverseArray([1,2,4,5,6,7])
 // console.log(reverse)
-  
-
-
 
 // Array Even Numbers:
-// Write a function that returns an 
+// Write a function that returns an
 // array containing only the even numbers from the given array.
 
 // let duplicate = [];
@@ -633,12 +534,10 @@
 //     }
 // }
 // getEvenNumbers([1,2,3,4,5,6,7,8,10]);
-// console.log(duplicate) 
-  
+// console.log(duplicate)
 
 // Remove Duplicates:
 // Write a function that removes duplicate elements from an array.
-
 
 // let remove = [];
 
@@ -651,7 +550,6 @@
 // removeDuplicates([1, 2, 2, 3, 4, 4, 5, 5, 6, 7]);
 // console.log(remove);
 
-
 // let remove = [];
 
 // function removeDuplicates(arr) {
@@ -660,8 +558,6 @@
 
 // removeDuplicates([1, 2, 2, 3, 4, 4, 5, 5, 6, 7]);
 // console.log(remove);
-
-
 
 // let remove = [];
 
@@ -673,9 +569,6 @@
 
 // removeDuplicates([1, 2, 2, 3, 4, 4, 5, 5, 6, 7]);
 // console.log(remove);
-
-
-
 
 // let remove = [];
 
@@ -690,17 +583,14 @@
 // removeDuplicates([1, 2, 2, 3, 4, 4, 5, 5, 6, 7]);
 // console.log(remove);
 
-
-
-
 // Array Sorting:
 // Write a function that sorts an array in ascending order.
 
 // let newArr = [];
 
 // function sortArray(arr) {
-//     newArr = [...arr]; 
-    
+//     newArr = [...arr];
+
 //     for (let i = 0; i < newArr.length - 1; i++) {
 //         for (let j = 0; j < newArr.length - 1 - i; j++) {
 //             if (newArr[j] > newArr[j + 1]) {
@@ -713,8 +603,6 @@
 // sortArray([2, 4, 1, 5, 7, 3, 10, 9, 6]);
 // console.log(newArr);
 
-
-
 // let newArr = [];
 
 // function sortArray(arr) {
@@ -724,13 +612,11 @@
 // sortArray([2, 4, 1, 5, 7, 3, 10, 9, 6]);
 // console.log(newArr);
 
-
-
 // let newArr = [];
 
 // function sortArray(arr) {
-//     newArr = [...arr]; 
-    
+//     newArr = [...arr];
+
 //     for (let i = 1; i < newArr.length; i++) {
 //         let currentElement = newArr[i];
 //         let j = i - 1;
@@ -747,8 +633,6 @@
 // sortArray([2, 4, 1, 5, 7, 3, 10, 9, 6]);
 // console.log(newArr);
 
-
-  
 // let newArr = [];
 
 // function sortArray(arr) {
@@ -757,17 +641,12 @@
 // sortArray([2, 4, 1, 5, 7, 3, 10, 9, 6]);
 // console.log(newArr);
 
-
-
-
 // Map:
-// Create a new array that contains the 
+// Create a new array that contains the
 // squares of each element in the given array.
-
 
 // const squaredArray = [1, 2, 3, 4].map(num => num ** 2);
 // console.log(squaredArray);
-
 
 // let square = [];
 // function mapArr (arr){
@@ -776,14 +655,9 @@
 // mapArr ([1,2,3,4]);
 // console.log(square)
 
-
 // Filter:
 // Create a new array that contains
 //  only the even numbers from the given array.
-
-
-
-
 
 // Reduce:
 // Calculate the sum of all elements in the given array.
@@ -791,101 +665,76 @@
 // const sum = [1, 2, 3, 4].reduce((acc, num) => acc + num, 0);
 // console.log(sum);
 
-
 // ForEach:
 // Print each element of the array to the console.
 
 // const array = [1, 2, 3, 4];
 // array.forEach(num => console.log(num));
 
-
-
 // Every:
 // Check if all elements in the array are greater than 0.
 // const allPositive = [1, 2, 3, 4].every(num => num > 0);
 // console.log(allPositive);
-
-
 
 // Some:
 // Check if at least one element in the array is negative.
 // const hasNegative = [1, 2, 3, -4].some(num => num < 0);
 // console.log(hasNegative);
 
-
-
 // Find:
 // Find the first element in the array that is greater than 5.
 // const greaterThanFive = [1, 6, 3, 2].find(num => num > 5);
 // console.log(greaterThanFive);
-
 
 // FindIndex:
 // Find the index of the first element in the array that is greater than 5.
 // const greaterThanFive = [1, 6, 3, 2].find(num => num > 5);
 // console.log(greaterThanFive);
 
-
-
 // Includes:
 // Check if the array includes the value 3.
 // const includesThree = [1, 2, 3, 4].includes(3);
 // console.log(includesThree);
-
 
 // IndexOf:
 // Find the index of the first occurrence of the value 4 in the array.
 // const indexGreaterThanFive = [1, 6, 3, 2].findIndex(num => num > 5);
 // console.log(indexGreaterThanFive);
 
-
-
 // LastIndexOf:
 // Find the index of the last occurrence of the value 4 in the array.
 // const indexOfTypeFour = [1, 2, 4, 3, 4].indexOf(4);
 // console.log(indexOfTypeFour);
-
-
 
 // Slice:
 // Create a new array that includes elements from index 2 to index 5 of the given array.
 // const lastIndexOfFour = [1, 2, 4, 3, 4].lastIndexOf(4);
 // console.log(lastIndexOfFour);
 
-
-
 // Splice:
 // Remove two elements starting from index 3 and replace them with the values 8 and 9.
 // const slicedArray = [1, 2, 3, 4, 5].slice(2, 6);
 // console.log(slicedArray);
-
-
 
 // Concat:
 // Concatenate the given array with another array [10, 11, 12].
 // const concatenatedArray = [1, 2, 3].concat([4, 5, 6]);
 // console.log(concatenatedArray);
 
-
-
 // Join:
 // Convert the array of strings ['Hello', 'World'] into a single string "Hello World".
 // const joinedString = ['Hello', 'World'].join(' ');
 // console.log(joinedString);
-
 
 // Reverse:
 // Reverse the order of elements in the array.
 // const reversedArray = [1, 2, 3, 4, 5].reverse();
 // console.log(reversedArray);
 
-
 // Sort:
 // Sort the array of strings ['banana', 'appleeeee', 'orange'] in alphabetical order.
 // const sortedArray = ['banana', 'appleeeee', 'orange'].sort();
 // console.log(sortedArray);
-
-
 
 // Push:
 // Add the value 13 to the end of the array.
@@ -893,24 +742,17 @@
 // arrayWithPush.push(13);
 // console.log(arrayWithPush);
 
-
-
 // Pop:
 // Remove the last element from the array.
 // const arrayWithPop = [1, 2, 3];
 // arrayWithPop.pop();
 // console.log(arrayWithPop);
 
-
-
 // Shift:
 // Remove the first element from the array.
 // const arrayWithShift = [1, 2, 3];
 // arrayWithShift.shift();
 // console.log(arrayWithShift);
-
-
-
 
 // function product(x,y){
 //     if(y === 0) return 0;
@@ -921,9 +763,7 @@
 // const result = product(3, -7)
 // console.log(result)
 
-
-
-6
+6;
 
 // function product(x, y) {
 //     if (y === 0) return 0;
@@ -935,7 +775,6 @@
 // const result = product(-3, 7);
 // console.log(result)
 
-
 // let num = [10, 22, 2];
 
 // let result = num[0] + (num[1] * num[2]);
@@ -946,16 +785,12 @@
 // let newArr;
 // function array(num){
 // result = num.map(el => {
-//     return (el ** 2) 
+//     return (el ** 2)
 // })
 // newArr = result.reduce((tot,cur) => tot + cur, 0)
 // }
 // array([1,2,3,4,5]);
 // console.log(newArr);
-
-
-
-
 
 // function product(x,y){
 //     if(y === 0) return 0;
@@ -966,80 +801,68 @@
 // const result = product(-3, -7)
 // console.log(result)
 
+// const characters = [
+//     {
+//       name: "Luke Skywalker",
+//       height: "172",
+//       mass: "77",
+//       eye_color: "blue",
+//       gender: "male",
+//     },
+//     {
+//       name: "Darth Vader",
+//       height: "202",
+//       mass: "136",
+//       eye_color: "yellow",
+//       gender: "male",
+//     },
+//     {
+//       name: "Leia Organa",
+//       height: "150",
+//       mass: "49",
+//       eye_color: "brown",
+//       gender: "female",
+//     },
+//     {
+//       name: "Anakin Skywalker",
+//       height: "188",
+//       mass: "84",
+//       eye_color: "blue",
+//       gender: "male",
+//     },
+//   ];
 
+//   // Get an array of all names
+//   let namesArr = characters.map(names => names.name);
+//   console.log(namesArr)
+//   // Get an array of all heights
+//   let heightsArr = characters.map(heights => heights.height);
+//   console.log(heightsArr)
+//   // Get an array of objects with just name and height properties
+//   const namesAndHeightsArray = characters.map(({ name, height }) => ({ name, height }));
+//   console.log(namesAndHeightsArray);
 
-
-
-
-
-
-
-
-const characters = [
-    {
-      name: "Luke Skywalker",
-      height: "172",
-      mass: "77",
-      eye_color: "blue",
-      gender: "male",
-    },
-    {
-      name: "Darth Vader",
-      height: "202",
-      mass: "136",
-      eye_color: "yellow",
-      gender: "male",
-    },
-    {
-      name: "Leia Organa",
-      height: "150",
-      mass: "49",
-      eye_color: "brown",
-      gender: "female",
-    },
-    {
-      name: "Anakin Skywalker",
-      height: "188",
-      mass: "84",
-      eye_color: "blue",
-      gender: "male",
-    },
-  ];
-
-
-  
-  // Get an array of all names
-  let namesArr = characters.map(names => names.name);
-  console.log(namesArr)
-  // Get an array of all heights
-  let heightsArr = characters.map(heights => heights.height);
-  console.log(heightsArr)
-  // Get an array of objects with just name and height properties
-  const namesAndHeightsArray = characters.map(({ name, height }) => ({ name, height }));
-  console.log(namesAndHeightsArray);
-
-  // Get an array of all first names
-  // Get the total mass of all characters
-  // Get the total height of all characters
-  // Get the total number of characters in all the character names
-  // Get the total number of characters by eye color (hint. a map of eye color to count)
-  // Get characters with mass greater than 100
-  // Get characters with height less than 200
-  // Get all male characters
-  // Get all female characters
-  // Sort by name
-  // Sort by mass
-  // Sort by height
-  // Sort by gender
-  // Does every character have blue eyes?
-  // Does every character have mass more than 40?
-  // Is every character shorter than 200?
-  // Is every character male?
-  // Is there at least one male character?
-  // Is there at least one character with blue eyes?
-  // Is there at least one character taller than 200?
-  // Is there at least one character that has mass less than 50?
-
+// Get an array of all first names
+// Get the total mass of all characters
+// Get the total height of all characters
+// Get the total number of characters in all the character names
+// Get the total number of characters by eye color (hint. a map of eye color to count)
+// Get characters with mass greater than 100
+// Get characters with height less than 200
+// Get all male characters
+// Get all female characters
+// Sort by name
+// Sort by mass
+// Sort by height
+// Sort by gender
+// Does every character have blue eyes?
+// Does every character have mass more than 40?
+// Is every character shorter than 200?
+// Is every character male?
+// Is there at least one male character?
+// Is there at least one character with blue eyes?
+// Is there at least one character taller than 200?
+// Is there at least one character that has mass less than 50?
 
 // Get an array of all first names
 // const firstNamesArray = characters.map(character => character.name.split(' ')[0]);
@@ -1127,3 +950,92 @@ const characters = [
 // // Is there at least one character that has mass less than 50?
 // const atLeastOneCharacterWithMassLessThan50 = characters.some(character => parseInt(character.mass) < 50);
 // console.log("At Least One Character with Mass Less than 50:", atLeastOneCharacterWithMassLessThan50);
+
+// ფენდინგ, რეჯექთი, full fild
+
+// const myPromise = new Promise((resolve, reject) => {
+//   setTimeout (() => {
+//     throw Error ('Errorg')
+//     reject ('Resolved')
+//   }, 1000)
+// });
+
+// myPromise.then(console.log, (reason) => {
+//   console.log("reason:", reason)
+// });
+
+// davaleba: shevkribot 2 promisi:
+
+// const promise1 = new Promise((resolve) => {
+//   setTimeout(resolve, 100, 5);
+// });
+// const promise2 = new Promise((resolve) => {
+//   setTimeout(resolve, 5000, 50);
+// });
+
+// Promise.all([promise1, promise2]).than(([val1, val2]) => {
+//   console.log("sum:", val1 + val2)
+// });
+
+// const fakeAPICall = () => {
+//   return new Promise((resolve) => {
+//     setTimeout(resolve, 100, "Hello");
+//   });
+// };
+// const fakeAPICall2 = () => {
+//   return new Promise((resolve) => {
+//     setTimeout(resolve, 500, "Hello");
+//   });
+// };
+
+// Promise.race([fakeAPICall(), fakeAPICall2()])
+// .than((res) =>  console.log(re))
+// .catch();
+
+// const fakeAPICall = () => {
+//   return new Promise((resolve) => {
+//     setTimeout(resolve, 500, "Hello");
+//   });
+// };
+// const fakeAPICall2 = () => {
+//   return new Promise((reject) => {
+//     setTimeout(reject, 100, "error");
+//   });
+// };
+
+// Promise.any([fakeAPICall(), fakeAPICall2()])
+//   .then((res) => console.log(res))
+//   .catch();
+
+
+
+/*
+1. შევქმნათ ფრომისი. იმის შანსი რომ ფრომისი ან დარეზოლვდება ან დარეჯექთდება უნდა იყოს 50/50.
+   ანუ ზოგიერთ გამოძახებაზე უნდა დარეჯექთდეს.
+
+2. დავწეროთ ფუნქცია რომელიც წამოიღებს მონაცემებს https://jsonplaceholder.typicode.com/users დან 
+   და დაბრუნებს ამ მონაცემებს
+
+3. დავწეროთ ფუნქცია რომელიც ეცდება წამოიღოს მონაცემები 
+https://jsonplaceholde.typicode.com (ლინკი სპეციალურად რასწორია) დან.
+წარუმატებელი რექუესთის შემთხვევაში ხელახლა ცადოს წამოღება 5_ჯერ 
+
+4. დავწეროთ ფუნქცია რომელიც ეცდება წმოიღოს მონაცემები https://dummyjson.com/users დან და https://jsonplaceholder.typicode.com/users დან.
+   ფუნქციამ უნდა დაგვიბრუნოს ის ლისთი რომელის ცატვირთვაც უფრო მალე მოხდება.
+*/
+
+
+// let p = new Promise((resolve, reject) => {
+//   let a = 1 + 1;
+//   if (a == 2) {
+//     resolve('Succes')
+//   }else {
+//     reject('Failed')
+//   }
+// });
+
+// p.then((message) => {
+//   console.log(('This is in the then' + message))
+// }).catch ((message) => {
+//   console.log('This is in the catch' + message)
+// });
