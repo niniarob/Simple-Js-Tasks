@@ -1063,19 +1063,19 @@ https://jsonplaceholde.typicode.com (ლინკი სპეციალურ
 
 // const axios = require('axios');
 
-const fetchData = async() => {
-  try{
-  const data = await axios.get('https://cat-fact.herokuapp.com/facts');
-  console.log(data);
-  }
-  catch(err) {
-    console.log(err)
-  }
-  finally{
-    console.log('HELLO')
-  }
-};
-fetchData();
+// const fetchData = async() => {
+//   try{
+//   const data = await axios.get('https://cat-fact.herokuapp.com/facts');
+//   console.log(data);
+//   }
+//   catch(err) {
+//     console.log(err)
+//   }
+//   finally{
+//     console.log('HELLO')
+//   }
+// };
+// fetchData();
 
 // data
 // .then((res) => {
@@ -1088,3 +1088,21 @@ fetchData();
 //   console.log("promise resolved")
 // ]);
 // console.log(data);
+
+
+
+const fetchUsers = fetch ('data/users.json');
+const fetchColors = fetch ('data/colors.json');
+
+Promise.all([fetchUsers, fetchColors])
+.then(values => {
+  return Promise.all(values.map(r => r.json()));
+})
+.then(([users, colors]) => {
+  console.log(users);
+  console.log(colors)
+})
+.catch(e => {
+  console.log('caught');
+  console.log(e);
+});
