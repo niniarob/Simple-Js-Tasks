@@ -1091,18 +1091,61 @@ https://jsonplaceholde.typicode.com (ლინკი სპეციალურ
 
 
 
-const fetchUsers = fetch ('data/users.json');
-const fetchColors = fetch ('data/colors.json');
+// const fetchUsers = fetch ('data/users.json');
+// const fetchColors = fetch ('data/colors.json');
 
-Promise.all([fetchUsers, fetchColors])
-.then(values => {
-  return Promise.all(values.map(r => r.json()));
-})
-.then(([users, colors]) => {
-  console.log(users);
-  console.log(colors)
-})
-.catch(e => {
-  console.log('caught');
-  console.log(e);
-});
+// Promise.all([fetchUsers, fetchColors])
+// .then(values => {
+//   return Promise.all(values.map(r => r.json()));
+// })
+// .then(([users, colors]) => {
+//   console.log(users);
+//   console.log(colors)
+// })
+// .catch(e => {
+//   console.log('caught');
+//   console.log(e);
+// });
+
+
+
+// const promiseOne = () => new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve('promiseOne Resolved');
+//     // reject('promiseOne rejected')
+//   },500);
+// });
+// const promiseTwo = () => new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve('promiseTwo Resolved');
+//     // reject('promiseTwo rejected')
+//   },600);
+// });
+// const promiseThree= () => new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve('promiseThree Resolved');
+//     // reject('promiseThree rejected')
+//   },700);
+// });
+
+// const fetchData  = async () => {
+//  try{
+
+//   // const beforeTime = new Date();
+//   // const responseOne = await promiseOne();
+//   // const responseTwo = await promiseTwo();
+//   // const responseThree = await promiseThree();
+//   // const afterTime = new Date();
+
+  
+//   const response =await Promise.all([promiseOne(), promiseTwo(), promiseThree()]);
+//   console.log('response from promise.all', response)
+
+//   console.log(responseOne, responseTwo, responseThree, afterTime - beforeTime);
+//  }
+//  catch (error) {
+//   console.log('error:', error)
+
+//  }
+// };
+// fetchData();
