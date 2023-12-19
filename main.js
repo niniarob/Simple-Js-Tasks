@@ -1039,3 +1039,52 @@ https://jsonplaceholde.typicode.com (ლინკი სპეციალურ
 // }).catch ((message) => {
 //   console.log('This is in the catch' + message)
 // });
+
+
+// let listOfMovies = fetch('')
+
+
+// const event = new Promise((resolve, reject) => {
+//   let name = 'nino';
+//   if(name == 'nino'){
+//     resolve(name);
+//   }else {
+//     reject('name was not Nino, name was:' + name);
+//   }
+// });
+// event.then((name) => {
+//   console.log(name);
+// }).catch((err) => {
+//   console.log(err);
+// }).finally(() => {
+//   console.log('Promise finished');
+// });
+
+
+// const axios = require('axios');
+
+const fetchData = async() => {
+  try{
+  const data = await axios.get('https://cat-fact.herokuapp.com/facts');
+  console.log(data);
+  }
+  catch(err) {
+    console.log(err)
+  }
+  finally{
+    console.log('HELLO')
+  }
+};
+fetchData();
+
+// data
+// .then((res) => {
+//   console.log(data);
+// })
+// .catch((err) => {
+//   console.log(err)
+// })
+// .finally(() => [
+//   console.log("promise resolved")
+// ]);
+// console.log(data);
